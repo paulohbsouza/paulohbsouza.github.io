@@ -1,0 +1,61 @@
+body {
+  background-color: #F2F2F2;
+}
+
+a {
+	text-decoration: none; 
+	color: #555;
+}
+
+a:hover {
+	color: #8A2AE3;
+}
+
+@font-face {
+    font-family: 'BubaDEMO-Outline';
+	src: local(BubaDEMO-Outline), url('BubaDEMO-Outline.otf');
+}
+
+@keyframes animacao {
+   0% {
+      color: #8A2AE3;
+   }
+   35% { 
+	  color: #FF1494;
+   }
+   65% {
+   	  color: #00FF00;
+   }
+}
+
+.logotipo {
+	margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+.logotipo-p1 {
+    font-family: 'BubaDEMO-Outline';
+    font-size: 2rem;
+    color: #000;
+}
+
+.logotipo-p2 {
+    font-family: 'BubaDEMO-Outline';
+    font-size: 2rem;
+    color: #8A2AE3;
+    animation: animacao 15s ease 1s infinite normal;
+}
+
+.btn {
+  margin: 1.8%;
+}
+
+.assinatura {
+  color: #555;
+}
+
+.img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
