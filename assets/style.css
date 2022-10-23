@@ -4,7 +4,7 @@
     border: 1px solid red;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,6 +12,7 @@ body {
     overflow: auto;
     background: linear-gradient(90deg, #141630 0%, #243B55 100%);
     color: #fff;
+    text-align: center;
 }
 
 body::-webkit-scrollbar {
@@ -28,6 +29,15 @@ body::-webkit-scrollbar-track {
     background-color: #243B55;
 }
 
+.logo {
+    margin: 70px 0px 70px 0px;
+}
+
+.title {
+    font-style: italic;
+    margin: 24px 0px 64px 0px;
+}
+
 .link {
     background: rgba(255, 255, 255, 0.5);
     height: 60px;
@@ -35,6 +45,10 @@ body::-webkit-scrollbar-track {
     margin-top: 12px;
     margin-bottom: 12px;
     border: 1px solid #fff;
+}
+
+footer {
+    margin-top: 84px;
 }
 
 @media screen and (min-width: 660px) {
@@ -49,6 +63,11 @@ body::-webkit-scrollbar-track {
 
     .logo img {
         max-width: 100%;
+    }
+
+    .avatar {
+        border-radius: 50%;
+        border: 1px solid #fff;
     }
 
     .title {
