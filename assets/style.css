@@ -29,26 +29,49 @@ body::-webkit-scrollbar-track {
     background-color: #243B55;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo {
     margin: 70px 0px 70px 0px;
 }
 
+.avatar {
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.cafe {
+    position: absolute;
+    margin: 106px 0px 0px -34px;
+}
+
 .title {
     font-style: italic;
-    margin: 24px 0px 64px 0px;
+    margin: 8px 0px 64px 0px;
 }
 
 .link {
     background: rgba(255, 255, 255, 0.5);
     height: 60px;
     border-radius: 50px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     border: 1px solid #fff;
+    color: #fff;
+}
+
+.link-group {
+    margin-top: 12px;
+}
+
+.link-title {
+    font-weight: 700;
+    text-shadow: 1px 1px #141630;
 }
 
 footer {
-    margin-top: 84px;
+    margin-top: 100px;
 }
 
 @media screen and (min-width: 660px) {
@@ -63,11 +86,6 @@ footer {
 
     .logo img {
         max-width: 100%;
-    }
-
-    .avatar {
-        border-radius: 50%;
-        border: 1px solid #fff;
     }
 
     .title {
