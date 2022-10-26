@@ -71,7 +71,8 @@ a {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 133px;
+    padding-bottom: 7px;
 }
 
 @media screen and (min-width: 660px) {
