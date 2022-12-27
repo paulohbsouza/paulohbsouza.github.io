@@ -31,6 +31,11 @@ body::-webkit-scrollbar-track {
 
 a {
     text-decoration: none;
+    color: #fff;
+}
+
+a:hover, a:visited {
+    color: #fff;
 }
 
 .logo {
@@ -49,7 +54,15 @@ a {
 
 .title {
     font-style: italic;
-    margin: 8px 0px 64px 0px;
+    margin: 8px 0px 54px 0px;
+}
+
+.icons {
+    margin-bottom: 32px;
+}
+.icons i {
+    font-size: 36px;
+    margin: 0px 8px 0px 8px;
 }
 
 .link {
@@ -109,5 +122,8 @@ footer {
 
     .title {
         font-size: 12px;
+    }
+    .icons i {
+        font-size: 28px;
     }
 }
