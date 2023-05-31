@@ -59,7 +59,7 @@ a:hover, a:visited {
     margin: 106px 0px 0px -34px;
 }
 
-.title {
+.text {
     font-style: italic;
     margin: 8px 8px 54px 8px;
     max-width: 660px;
@@ -112,6 +112,10 @@ footer {
     }
 
     .title {
+        font-size: 20px;
+    }
+
+    .text {
         font-size: 17px;
     }
 
@@ -133,8 +137,13 @@ footer {
     }
 
     .title {
+        font-size: 15px;
+    }
+
+    .text {
         font-size: 12px;
     }
+
     .icons i {
         font-size: 28px;
     }
