@@ -4,9 +4,18 @@
 }
 
 body {
+  /* uigradients.com/#MoonlitAsteroid */
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  max-width: 780px;
+}
+
+.logotipo {
+  margin: 5rem 0 7rem 0;
 }
 
 .resume {
@@ -31,23 +40,56 @@ body {
   margin-left: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-  .subtitles h1 {
-    font-size: 1.5rem;
-  }
+.subtitles p i {
+  margin-right: 1rem;
 }
 
+.btnSocial a i:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btnSocial a i:active {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.linkBtn {
+  text-decoration: none;
+}
+
+.linkBtn-item {
+  border-radius: 50px;
+  background: #203A43;
+  box-shadow: -8px -8px 16px #1b3139,
+              8px 8px 16px #25434d;
+}
+
+.linkBtn-item i {
+  margin-right: .5rem;
+}
+
+.linkBtn-item:hover {
+  background-color: rgba(192, 192, 192, 0.1);
+}
+
+.linkBtn-item:active {
+  background-color: rgba(192, 192, 192, 0.1);
+}
+
+/**/
 @media screen and (max-width: 576px) {
   .part-1 {
     display: flex;
     flex-wrap: wrap;
+  }
+  .logotipo {
+    margin: 3rem 0 5rem 0;
   }
   .logotipo img {
     max-width: 100%;
   }
   .avatar img {
     max-width: 100%;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
   }
   .subtitles {
     margin-left: 0rem;
