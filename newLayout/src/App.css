@@ -91,15 +91,15 @@ body {
 }
 
 .card-img-1 {
-  background-image: url("./images/foguete.svg");
+  background-image: url("../images/foguete.svg");
 }
 
 .card-img-2 {
-  background-image: url("./images/cadeira.svg");
+  background-image: url("../images/cadeira.svg");
 }
 
 .card-img-3 {
-  background-image: url("./images/moto.svg");
+  background-image: url("../images/moto.svg");
 }
 
 
