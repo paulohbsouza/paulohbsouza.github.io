@@ -21,16 +21,20 @@ export default function Vitrine() {
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title display-6 text-secondary">Back-end</h5>
-                                    <p className="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                                        only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem 
-                                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
-                                        versions of Lorem Ipsum.</p>
+                                    <p className="card-text">
+                                        O escopo do trabalho de um desenvolvedor back-end envolve a criação e a manutenção da lógica e da 
+                                        infraestrutura que suportam o funcionamento de um aplicativo ou sistema web. Em geral, o trabalho 
+                                        de um desenvolvedor back-end é focado nos bastidores do sistema e se concentra em processar dados, 
+                                        lógica de negócios, segurança e integrações com bancos de dados e outros serviços. Aqui estão 
+                                        algumas das principais responsabilidades e tarefas de um desenvolvedor back-end: Desenvolvimento 
+                                        de Servidores e Aplicativos; Lógica de Negócios; Gerenciamento de Banco de Dados; APIs (Interfaces 
+                                        de Programação de Aplicativos); Segurança; Escalabilidade e Desempenho; Integrações; Testes e 
+                                        Depuração; Manutenção; Documentação; Colaboração; Monitoramento;
+                                    </p>
                                     <p className="card-text">
                                         <strong>Tags:</strong> Hosting, POO, Storage, Logs, Authentication, Algoritmo, Escalabilidade, 
-                                        Server Architecture, MVC, MySQL, MariaDB, Microserviços, Cybersecurity, Banco de Dados, Scrum, DevOps.
+                                        Server Architecture, MVC, MySQL, MariaDB, Microserviços, Cybersecurity, Banco de Dados, REST, 
+                                        Scrum, DevOps.
                                     </p>
                                     <p className="card-text">
                                         <span className="text-Light fs-4 mx-1"><FontAwesomeIcon icon={faPhp} /></span>

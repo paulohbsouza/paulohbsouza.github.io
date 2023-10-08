@@ -15,7 +15,7 @@ body {
 }
 
 .idiomas img {
-  width: 26px;
+  width: 24px;
 }
 
 .logotipo {
@@ -95,7 +95,7 @@ body {
 }
 
 .card-img-2 {
-  background-image: url("../images/cadeira.svg");
+  background-image: url("../images/luminaria.svg");
 }
 
 .card-img-3 {
@@ -103,7 +103,7 @@ body {
 }
 
 .card-img-4 {
-  background-image: url("../images/moto.svg");
+  background-image: url("../images/cadeira.svg");
 }
 
 .card P {
