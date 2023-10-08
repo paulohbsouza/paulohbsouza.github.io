@@ -1,12 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faAws, faBattleNet, faBootstrap, faCloudscale, faCpanel, faCss3Alt, faDebian, faDev, faDocker, faFigma, faGitAlt,
-    faGithub, faGoogle, faHtml5, faJs, faLaravel, faLinux, faNode, faPhp, faPython, faReact,
-    faSass, faUbuntu, faWindows, faWordpress
+    faBootstrap, faCpanel, faCss3Alt, faDebian, faDev, faDocker, faFigma, faGitAlt, faGithub, faHtml5, faJs, faLaravel, 
+    faLinux, faNode, faPhp, faReact, faSass, faUbuntu, faWindows, faWordpress
 } from '@fortawesome/free-brands-svg-icons'
-import {} from '@fortawesome/free-regular-svg-icons'
+import { } from '@fortawesome/free-regular-svg-icons'
 import { faBrush, faCloud, faCode, faCodeBranch, faCompassDrafting, faDatabase, faDesktop, faMobileScreen, faNetworkWired, faPalette, faPenRuler, faServer, faShield, faShieldHalved } from '@fortawesome/free-solid-svg-icons'
-
 
 export default function Vitrine() {
     return (
@@ -20,20 +18,20 @@ export default function Vitrine() {
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title display-6 text-secondary">Back-end</h5>
+                                    <h5 className="card-title display-5 text-secondary">Back-end</h5>
                                     <p className="card-text">
-                                        O escopo do trabalho de um desenvolvedor back-end envolve a criação e a manutenção da lógica e da 
-                                        infraestrutura que suportam o funcionamento de um aplicativo ou sistema web. Em geral, o trabalho 
-                                        de um desenvolvedor back-end é focado nos bastidores do sistema e se concentra em processar dados, 
-                                        lógica de negócios, segurança e integrações com bancos de dados e outros serviços. Aqui estão 
-                                        algumas das principais responsabilidades e tarefas de um desenvolvedor back-end: Desenvolvimento 
-                                        de Servidores e Aplicativos; Lógica de Negócios; Gerenciamento de Banco de Dados; APIs (Interfaces 
-                                        de Programação de Aplicativos); Segurança; Escalabilidade e Desempenho; Integrações; Testes e 
+                                        O escopo do trabalho de um desenvolvedor back-end envolve a criação e a manutenção da lógica e da
+                                        infraestrutura que suportam o funcionamento de um aplicativo ou sistema web. Em geral, o trabalho
+                                        de um desenvolvedor back-end é focado nos bastidores do sistema e se concentra em processar dados,
+                                        lógica de negócios, segurança e integrações com bancos de dados e outros serviços. Aqui estão
+                                        algumas das principais responsabilidades e tarefas de um desenvolvedor back-end: Desenvolvimento
+                                        de Servidores e Aplicativos; Lógica de Negócios; Gerenciamento de Banco de Dados; APIs (Interfaces
+                                        de Programação de Aplicativos); Segurança; Escalabilidade e Desempenho; Integrações; Testes e
                                         Depuração; Manutenção; Documentação; Colaboração; Monitoramento;
                                     </p>
                                     <p className="card-text">
-                                        <strong>Tags:</strong> Hosting, POO, Storage, Logs, Authentication, Algoritmo, Escalabilidade, 
-                                        Server Architecture, MVC, MySQL, MariaDB, Microserviços, Cybersecurity, Banco de Dados, REST, 
+                                        <strong>Tags:</strong> Hosting, POO, Storage, Logs, Authentication, Algoritmo, Escalabilidade,
+                                        Server Architecture, MVC, MySQL, MariaDB, Microserviços, Cybersecurity, Banco de Dados, REST,
                                         Scrum, DevOps.
                                     </p>
                                     <p className="card-text">
@@ -62,21 +60,21 @@ export default function Vitrine() {
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title display-6 text-secondary">Front-end</h5>
+                                    <h5 className="card-title display-5 text-secondary">Front-end</h5>
                                     <p className="card-text">
-                                        Seu escopo é a ponte que une os mundos do design e da programação. O profissional desenvolvedor 
-                                        front-end é o responsável por colocar em prática, através de códigos, o design de um site ou 
-                                        interface. Enquanto o web design projeta o visual de um site, o desenvolvimento front-end 
-                                        implementa esse design através de códigos, como HTML, CSS e JavaScript. Ou seja, é o front-end 
-                                        que coloca “para funcionar” toda a parte visual de uma interface, como a página de um site ou 
-                                        de um aplicativo. O front-end também deve ser capaz de se “comunicar” com a linguagem utilizada 
-                                        no back-end, que é a parte estrutural de sites, sistemas, aplicações, serviçoes e plataformas. 
-                                        Dessa forma, o visual de uma interface conseguirá ter suas funções correspondidas, como quando 
+                                        Seu escopo é a ponte que une os mundos do design e da programação. O desenvolvimento 
+                                        front-end é responsável por colocar em prática, através de códigos, o design de um site ou
+                                        interface. Enquanto o web design projeta o visual de um site, o desenvolvimento front-end
+                                        implementa esse design através de códigos, como HTML, CSS e JavaScript. Ou seja, é o front-end
+                                        que coloca “para funcionar” toda a parte visual de uma interface, como a página de um site ou
+                                        de um aplicativo. O front-end também deve ser capaz de se “comunicar” com a linguagem utilizada
+                                        no back-end, que é a parte estrutural de sites, sistemas, aplicações, serviçoes e plataformas.
+                                        Dessa forma, o visual de uma interface conseguirá ter suas funções correspondidas, como quando
                                         clicamos em um botão de “enviar mensagem” e a mensagem realmente é enviada.
                                     </p>
                                     <p className="card-text">
-                                        <strong>Tags:</strong> Design System, jQuery, Tailwind, Design Resposivo, Mobile First, SEO, 
-                                        Acessibilidade, Ajax.
+                                        <strong>Tags:</strong> Design System, jQuery, Tailwind, Design Resposivo, Mobile First, SEO,
+                                        Acessibilidade, Ajax, TypeScript.
                                     </p>
                                     <p className="card-text">
                                         <span className="text-Light fs-4 mx-1"><FontAwesomeIcon icon={faReact} /></span>
@@ -102,15 +100,15 @@ export default function Vitrine() {
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title display-6 text-secondary">Design UI/UX</h5>
+                                    <h5 className="card-title display-5 text-secondary">Design UI/UX</h5>
                                     <p className="card-text">
-                                        O objetivo do UI design é criar uma interface visual atraente e fácil de usar, garantindo que 
-                                        os usuários possam interagir com o produto de forma eficiente e eficaz. Já o UX design 
-                                        abrange a experiência do usuário como um todo, desde o primeiro contato com o produto até o 
+                                        O objetivo do UI design é criar uma interface visual atraente e fácil de usar, garantindo que
+                                        os usuários possam interagir com o produto de forma eficiente e eficaz. Já o UX design
+                                        abrange a experiência do usuário como um todo, desde o primeiro contato com o produto até o
                                         uso contínuo e a fidelização.
                                     </p>
                                     <p className="card-text">
-                                        <strong>Tags:</strong> Corel Draw, Screen Mockup, Canva, Figma, Logotipo, 
+                                        <strong>Tags:</strong> Corel Draw, Screen Mockup, Canva, Figma, Logotipo,
                                         Adobe Illustrator, Análise Heurística.
                                     </p>
                                     <p className="card-text">
@@ -136,17 +134,17 @@ export default function Vitrine() {
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
-                                    <h5 className="card-title display-6 text-secondary">SysAdmin</h5>
+                                    <h5 className="card-title display-5 text-secondary">SysAdmin</h5>
                                     <p className="card-text">
-                                        O escopo da administração de sistemas inclui instalar, suportar, e manter servidores e outros 
-                                        sistemas, planejar para responder a indisponibilidades de serviços e outros problemas. Outras 
-                                        tarefas incluem programação de scripts ou programas pequenos, gerenciamento de projetos para 
-                                        projetos relacionados a sistemas, supervisionar ou treinar técnicos de operação e de apoio, e 
-                                        consultoria para problemas de sistemas além do conhecimento do Técnico de Apoio ao Usuário ou 
+                                        O escopo da administração de sistemas inclui instalar, suportar, e manter servidores e outros
+                                        sistemas, planejar para responder a indisponibilidades de serviços e outros problemas. Outras
+                                        tarefas incluem programação de scripts ou programas pequenos, gerenciamento de projetos para
+                                        projetos relacionados a sistemas, supervisionar ou treinar técnicos de operação e de apoio, e
+                                        consultoria para problemas de sistemas além do conhecimento do Técnico de Apoio ao Usuário ou
                                         Suporte de Primeiro Nível.
                                     </p>
                                     <p className="card-text">
-                                        <strong>Tags:</strong> Firewalls UTM, Proxy, Samba, DHCP, pfSense, VMware, Citrix 
+                                        <strong>Tags:</strong> Firewalls UTM, Proxy, Samba, DHCP, pfSense, VMware, Citrix
                                         Hypervisor/XenServer, VPN, Apache, IT Services, Backup, Routerboard, LAN, WAN, HTTPS.
                                     </p>
                                     <p className="card-text">
