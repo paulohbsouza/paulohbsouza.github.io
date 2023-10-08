@@ -14,8 +14,12 @@ body {
   max-width: 780px;
 }
 
+.idiomas img {
+  width: 30px;
+}
+
 .logotipo {
-  margin: 5rem 0 7rem 0;
+  margin: 3rem 0 7rem 0;
 }
 
 .resume {
@@ -75,6 +79,30 @@ body {
   background-color: rgba(192, 192, 192, 0.1);
 }
 
+.vitrine .card {
+  background-color: rgba(192, 192, 192, 0.1);
+  color: #FFFFFF;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.card-img-1 {
+  background-image: url("./images/foguete.svg");
+}
+
+.card-img-2 {
+  background-image: url("./images/cadeira.svg");
+}
+
+.card-img-3 {
+  background-image: url("./images/moto.svg");
+}
+
+
 /**/
 @media screen and (max-width: 576px) {
   .part-1 {
@@ -93,5 +121,11 @@ body {
   }
   .subtitles {
     margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-img {
+    height: 220px;
   }
 }
