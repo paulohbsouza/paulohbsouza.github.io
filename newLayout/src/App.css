@@ -15,7 +15,7 @@ body {
 }
 
 .idiomas img {
-  width: 30px;
+  width: 26px;
 }
 
 .logotipo {
@@ -99,7 +99,15 @@ body {
 }
 
 .card-img-3 {
+  background-image: url("../images/lapis.svg");
+}
+
+.card-img-4 {
   background-image: url("../images/moto.svg");
+}
+
+.card P {
+  text-align: justify;
 }
 
 
