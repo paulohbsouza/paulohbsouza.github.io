@@ -78,10 +78,34 @@ export default function App() {
 
         <hr />
 
-        {/** vitrine */}
+        {/** Vitrine */}
         <Vitrine />
 
         <hr />
+
+        {/** Portfólio */}
+        <h1 className="text-secondary display-5 my-5">Portfólio</h1>
+        <div className="row my-5 portfolio">
+          <div className="col-md-4">
+            <div className="card mb-3 shadow">
+              <div className="row g-0">
+                <div className="card-body">
+                  <p className="card-text">IMG</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 portfolio">
+            <div className="card mb-3 shadow">
+              <div className="row g-0">
+                <div className="card-body">
+                  <p className="card-text">IMG</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         {/** rodape */}
         <div className="text-secondary text-center my-5">

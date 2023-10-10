@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faBootstrap, faCpanel, faCss3Alt, faDebian, faDev, faDocker, faFigma, faGitAlt, faGithub, faHtml5, faJs, faLaravel, 
+    faBootstrap, faCpanel, faCss3Alt, faDebian, faDev, faDocker, faFigma, faGitAlt, faGithub, faHtml5, faJs, faLaravel,
     faLinux, faNode, faPhp, faReact, faSass, faUbuntu, faWindows, faWordpress
 } from '@fortawesome/free-brands-svg-icons'
 import { } from '@fortawesome/free-regular-svg-icons'
@@ -62,7 +62,7 @@ export default function Vitrine() {
                                 <div className="card-body">
                                     <h5 className="card-title display-5 text-secondary">Front-end</h5>
                                     <p className="card-text">
-                                        Seu escopo é a ponte que une os mundos do design e da programação. O desenvolvimento 
+                                        Seu escopo é a ponte que une os mundos do design e da programação. O desenvolvimento
                                         front-end é responsável por colocar em prática, através de códigos, o design de um site ou
                                         interface. Enquanto o web design projeta o visual de um site, o desenvolvimento front-end
                                         implementa esse design através de códigos, como HTML, CSS e JavaScript. Ou seja, é o front-end

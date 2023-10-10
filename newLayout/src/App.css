@@ -48,6 +48,9 @@ body {
   margin-right: 1rem;
 }
 
+
+/** Redes sociais */
+
 .btnSocial a i:hover {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -55,6 +58,9 @@ body {
 .btnSocial a i:active {
   color: rgba(255, 255, 255, 0.5);
 }
+
+
+/** Links */
 
 .linkBtn {
   text-decoration: none;
@@ -78,6 +84,9 @@ body {
 .linkBtn-item:active {
   background-color: rgba(192, 192, 192, 0.1);
 }
+
+
+/** Vitrine */
 
 .vitrine .card {
   background-color: rgba(192, 192, 192, 0.1);
@@ -109,6 +118,15 @@ body {
 .card P {
   text-align: justify;
 }
+
+
+/** Portfólio */
+.portfolio .card {
+  background-color: rgba(192, 192, 192, 0.1);
+  color: #FFFFFF;
+}
+
+
 
 
 /**/
