@@ -1,26 +1,54 @@
-/**/
+/**
+*
+*/
+
+/* Debug */
+
 .debug {
   border: 1px solid red;
 }
 
+
+/** Conteúdo */
+
 body {
   /* uigradients.com/#MoonlitAsteroid */
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container {
   max-width: 780px;
 }
 
+
+/** Idiomas */
+
 .idiomas img {
   width: 24px;
 }
 
+
+/** Header */
+
 .logotipo {
   margin: 3rem 0 7rem 0;
 }
+
+.subtitles {
+  margin-left: 1rem;
+}
+
+.subtitles p i {
+  margin-right: 1rem;
+}
+
+
+/** Resumo */
 
 .resume {
   text-align: justify;
@@ -38,14 +66,6 @@ body {
   overflow: hidden;
   transition: opacity 0.5s ease-in-out;
   height: 0;
-}
-
-.subtitles {
-  margin-left: 1rem;
-}
-
-.subtitles p i {
-  margin-right: 1rem;
 }
 
 
@@ -70,7 +90,7 @@ body {
   border-radius: 50px;
   background: #203A43;
   box-shadow: -8px -8px 16px #1b3139,
-              8px 8px 16px #25434d;
+    8px 8px 16px #25434d;
 }
 
 .linkBtn-item i {
@@ -121,6 +141,7 @@ body {
 
 
 /** Portfólio */
+
 .portfolio .card {
   background-color: rgba(192, 192, 192, 0.1);
   color: #FFFFFF;
@@ -135,16 +156,20 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
+
   .logotipo {
     margin: 3rem 0 5rem 0;
   }
+
   .logotipo img {
     max-width: 100%;
   }
+
   .avatar img {
     max-width: 100%;
     margin-bottom: 1rem;
   }
+
   .subtitles {
     margin-left: 0rem;
   }

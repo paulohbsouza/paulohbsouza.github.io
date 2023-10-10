@@ -4,6 +4,7 @@ import './App.css'
 import { useState } from 'react'
 import Vitrine from './components/Vitrine'
 import Links from './components/Links'
+import Portfolio from './components/Portfolio'
 
 export default function App() {
   //
@@ -23,7 +24,7 @@ export default function App() {
       {/** Conteúdo */}
       <div className="container">
 
-        {/** idiomas */}
+        {/** Idiomas */}
         <div className="d-flex justify-content-end text-secondary my-2 idiomas">
           <span className="mx-2"><img src="./images/icons8-brasil.png" alt="Brasil" title="Mudar idioma (pt-br)" /></span>
           <span className="mx-2"><img src="./images/icons8-eua.png" alt="EUA" title="Change language (en)" /></span>
@@ -84,28 +85,9 @@ export default function App() {
         <hr />
 
         {/** Portfólio */}
-        <h1 className="text-secondary display-5 my-5">Portfólio</h1>
-        <div className="row my-5 portfolio">
-          <div className="col-md-4">
-            <div className="card mb-3 shadow">
-              <div className="row g-0">
-                <div className="card-body">
-                  <p className="card-text">IMG</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 portfolio">
-            <div className="card mb-3 shadow">
-              <div className="row g-0">
-                <div className="card-body">
-                  <p className="card-text">IMG</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Portfolio />
 
+        <hr />
 
         {/** rodape */}
         <div className="text-secondary text-center my-5">
