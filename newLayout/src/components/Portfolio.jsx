@@ -12,7 +12,8 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">Full-stack</button>
+                                <span class="badge p-2 me-2 mb-2 shadow">Design UI/UX</span>
+                                <span class="badge p-2 me-2 mb-2 shadow">Full-stack</span>
                             </div>
                         </div>
                     </div>
@@ -25,7 +26,7 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">Front-end</button>
+                                <span class="badge p-2 me-2 mb-2 shadow">Front-end</span>
                             </div>
                         </div>
                     </div>
@@ -38,7 +39,8 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">Design UI/UX</button>
+                                <span class="badge p-2 me-2 mb-2 shadow">Design UI/UX</span>
+                                <span class="badge p-2 me-2 mb-2 shadow">Full-stack</span>
                             </div>
                         </div>
                     </div>
@@ -51,7 +53,7 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">SysAdmin</button>
+                                <span class="badge p-2 me-2 mb-2 shadow">SysAdmin</span>
                             </div>
                         </div>
                     </div>
@@ -64,7 +66,7 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">Back-end</button>
+                                <span class="badge p-2 me-2 mb-2 shadow">Back-end</span>
                             </div>
                         </div>
                     </div>
