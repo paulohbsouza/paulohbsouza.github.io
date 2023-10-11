@@ -12,8 +12,8 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <span class="badge p-2 me-2 mb-2 shadow">Design UI/UX</span>
-                                <span class="badge p-2 me-2 mb-2 shadow">Full-stack</span>
+                                <span class="badge p-2 me-2 mb-2 shadow-sm">Design UI/UX</span>
+                                <span class="badge p-2 me-2 mb-2 shadow-sm">Full-stack</span>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <span class="badge p-2 me-2 mb-2 shadow">Front-end</span>
+                                <span class="badge p-2 me-2 mb-2 shadow-sm">Front-end</span>
                             </div>
                         </div>
                     </div>
@@ -39,8 +39,8 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <span class="badge p-2 me-2 mb-2 shadow">Design UI/UX</span>
-                                <span class="badge p-2 me-2 mb-2 shadow">Full-stack</span>
+                                <span class="badge p-2 me-2 mb-2 shadow-sm">Design UI/UX</span>
+                                <span class="badge p-2 me-2 mb-2 shadow-sm">Full-stack</span>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <span class="badge p-2 me-2 mb-2 shadow">SysAdmin</span>
+                                <span class="badge p-2 me-2 mb-2 shadow-sm">SysAdmin</span>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ export default function Portfolio() {
                                 <p className="card-text">
                                     <img src="./images/img.svg" className="img-fluid" alt="Image" />
                                 </p>
-                                <span class="badge p-2 me-2 mb-2 shadow">Back-end</span>
+                                <span class="badge p-2 me-2 mb-2 shadow-sm">Back-end</span>
                             </div>
                         </div>
                     </div>
