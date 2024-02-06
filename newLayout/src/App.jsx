@@ -52,10 +52,42 @@ export default function App() {
         {/** Resumo */}
         <div className='d-flex justify-content-center flex-wrap'>
           <span className="text-white mb-3 fs-3" onClick={handleResume}><i class="bi bi-plus-circle"></i></span>
-          <div className={`${resumeClass ? 'resume-in' : 'resume-out'} resume border border-secondary text-white fst-italic fw-light `}>
-            Sou um profissional de TI com formação em Análise e Desenvolvimento de Sistemas. Tenho mais de 11 anos de experiência na área de infraestrutura de redes, tanto cabeadas quanto não cabeadas, além de expertise em administração e virtualização de servidores Windows e Linux, implantação de sistemas de gestão e gestão de serviços de TI.
-            Ao longo dos últimos três anos, tenho me dedicado ao desenvolvimento web, atuando como programador full-stack e também com serviços em nuvem. Meu foco principal está nas tecnologias de desenvolvimento e design, incluindo Apache Server, MySQL, Laravel PHP, React JS, UI/UX Design, Bootstrap, SCSS, Git e GitHub.
-            Estou sempre em busca de atualizações e novos desafios para aprimorar minhas habilidades e oferecer soluções inovadoras.
+          <div
+              className={`${resumeClass ? 'resume-in' : 'resume-out'} resume border border-secondary text-white fst-italic fw-light `}>
+            <p>
+              Sou um profissional apaixonado por tecnologia, formado em Análise e Desenvolvimento de Sistemas
+              (Associate's Degree - AS). Ao longo da minha carreira de mais de 11 anos na área de Tecnologia da
+              Informação,
+              desenvolvi uma sólida expertise em infraestrutura de redes, abrangendo tanto redes cabeadas quanto sem
+              fio.
+              Minha jornada profissional inclui uma vasta experiência na administração e virtualização de servidores,
+              com
+              especialização em ambientes Windows e Linux. Além disso, destaco minha participação ativa na implantação
+              de
+              sistemas de gestão e na gestão de serviços de TI.
+            </p>
+            <p>
+              Nos últimos três anos, mergulhei de cabeça no universo do desenvolvimento web. Atuando como programador
+              full-stack, explorando profundamente tecnologias como Apache Server, MySQL, Laravel PHP, React JS e
+              ferramentas de design UI/UX, como Figma, Bootstrap e SCSS. Durante esse período, também adquiri habilidades
+              em práticas de versionamento utilizando Git e GitHub. A diversidade das minhas experiências me proporcionou
+              uma visão abrangente, conectando a infraestrutura robusta com soluções de desenvolvimento ágeis e modernas.
+            </p>
+            <p>
+              Minha abordagem centrada no aprendizado contínuo e na busca por desafios me capacita a oferecer soluções
+              inovadoras aos projetos dos clientes. Além de trazer minha experiência consolidada em infraestrutura e
+              redes,
+              estou comprometido em aplicar meu conhecimento em desenvolvimento web para elevar a qualidade e a eficiência
+              das soluções propostas. Minha habilidade em integrar as últimas tecnologias e meu comprometimento em
+              manter-me atualizado me capacitam a agregar valor ao projeto, garantindo resultados eficazes e alinhados com
+              as demandas do cenário tecnológico atual.
+            </p>
+            <p>
+              Estou entusiasmado para enfrentar novos desafios e contribuir para o sucesso contínuo do seu projeto. Se você
+              busca um profissional dedicado, com ampla experiência em TI e desenvolvimento web, estou à disposição para
+              colaborar. Vamos criar soluções que impulsionem o seu negócio. Entre em contato para começarmos a
+              concretizar suas ideias!
+            </p>
           </div>
         </div>
 
