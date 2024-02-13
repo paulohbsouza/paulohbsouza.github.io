@@ -9,7 +9,7 @@ export default function Links() {
                         <div className="text-secondary"><small>@paulohbsouza</small></div>
                     </div>
                 </a>
-                <a className="linkBtn text-white mb-5" href="./pdf/test-protegido.pdf" target="_blank">
+                <a className="linkBtn text-white mb-5" href="./pdf/curri-paulohbsouza_protected.pdf" target="_blank">
                     <div className="linkBtn-item p-3">
                         <i class="bi bi-filetype-pdf"></i>Resumo Currícular
                         <div className="text-secondary"><small>Paulo H B Souza</small></div>
