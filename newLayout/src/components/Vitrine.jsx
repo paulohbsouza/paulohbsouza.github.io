@@ -32,9 +32,9 @@ export default function Vitrine() {
                         <h5 className="card-title display-5 text-secondary">Back-end</h5>
                         <div className="row text-end mb-1 text-secondary">
                             <small>
-                                <span className="me-4">Básico</span>
-                                <span className="me-4">Médio</span>
-                                <span>Avançado</span>
+                                <span className="levels">Básico</span>
+                                <span className="levels">Médio</span>
+                                <span className="levels-z">Avançado</span>
                             </small>
                         </div>
                         <div className="mb-1">
@@ -125,9 +125,9 @@ export default function Vitrine() {
                         <h5 className="card-title display-5 text-secondary">Front-end</h5>
                         <div className="row text-end mb-1 text-secondary">
                             <small>
-                                <span className="me-4">Básico</span>
-                                <span className="me-4">Médio</span>
-                                <span>Avançado</span>
+                                <span className="levels">Básico</span>
+                                <span className="levels">Médio</span>
+                                <span className="levels-z">Avançado</span>
                             </small>
                         </div>
                         <div className="mb-1">
@@ -190,9 +190,9 @@ export default function Vitrine() {
                         <h5 className="card-title display-5 text-secondary">Web Design</h5>
                         <div className="row text-end mb-1 text-secondary">
                             <small>
-                                <span className="me-4">Básico</span>
-                                <span className="me-4">Médio</span>
-                                <span>Avançado</span>
+                                <span className="levels">Básico</span>
+                                <span className="levels">Médio</span>
+                                <span className="levels-z">Avançado</span>
                             </small>
                         </div>
                         <div className="mb-1">
@@ -236,9 +236,9 @@ export default function Vitrine() {
                         <h5 className="card-title display-5 text-secondary">SysAdmin</h5>
                         <div className="row text-end mb-1 text-secondary">
                             <small>
-                                <span className="me-4">Básico</span>
-                                <span className="me-4">Médio</span>
-                                <span>Avançado</span>
+                                <span className="levels">Básico</span>
+                                <span className="levels">Médio</span>
+                                <span className="levels-z">Avançado</span>
                             </small>
                         </div>
                         <div className="mb-1">

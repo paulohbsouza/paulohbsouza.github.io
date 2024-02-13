@@ -1,6 +1,6 @@
 {
   "index.css": {
-    "file": "assets/index-70923736.css",
+    "file": "assets/index-be5ac71a.css",
     "src": "index.css"
   },
   "index.html": {
@@ -9,9 +9,9 @@
       "assets/bootstrap-icons-4d4572ef.woff"
     ],
     "css": [
-      "assets/index-70923736.css"
+      "assets/index-be5ac71a.css"
     ],
-    "file": "assets/index-4a1dddc2.js",
+    "file": "assets/index-c7acaf4f.js",
     "isEntry": true,
     "src": "index.html"
   },

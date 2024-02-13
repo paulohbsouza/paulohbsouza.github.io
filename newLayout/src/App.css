@@ -135,6 +135,10 @@ body {
   border-radius: 50%;
 }
 
+.levels {
+  margin-right: 26px;
+}
+
 /** Portfólio */
 
 .portfolio .card {
@@ -169,5 +173,24 @@ body {
   }
   .name-bolls {
     border: none;
+  }
+  .boll-1 {
+    width: 14px;
+    height: 14px;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 50%;
+  }
+  .boll-0 {
+    width: 14px;
+    height: 14px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+  }
+  .levels {
+    margin-right: 28px;
+    font-size: .85em;
+  }
+  .levels-z {
+    font-size: .85em;
   }
 }
