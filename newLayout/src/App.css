@@ -119,26 +119,27 @@ body {
   background-size: cover;
 }
 
-.card-img-1 {
-  background-image: url("../images/foguete.svg");
-}
-
-.card-img-2 {
-  background-image: url("../images/luminaria.svg");
-}
-
-.card-img-3 {
-  background-image: url("../images/lapis.svg");
-}
-
-.card-img-4 {
-  background-image: url("../images/cadeira.svg");
-}
-
 .card P {
   text-align: justify;
 }
 
+.name-bolls {
+  border-bottom: solid 1px rgba(108, 117, 125, 1);
+}
+
+.boll-1 {
+  width: 16px;
+  height: 16px;
+  background: rgba(255, 255, 255, .8);
+  border-radius: 50%;
+}
+
+.boll-2 {
+  width: 16px;
+  height: 16px;
+  background: rgba(255, 255, 255, .1);
+  border-radius: 50%;
+}
 
 /** Portfólio */
 

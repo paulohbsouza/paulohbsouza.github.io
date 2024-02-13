@@ -42,7 +42,7 @@ export default function App() {
           </div>
           <div className="subtitles">
             <h1 className="text-secondary display-3 mb-3">Seja bem vindo!</h1>
-            <p className="text-white"><i class="bi bi-code-slash text-secondary"></i>Programador Web Full Stack PHP | React</p>
+            <p className="text-white"><i class="bi bi-code-slash text-secondary"></i>Desenvolvedor Full-Stack Laravel | React</p>
             <p className="text-white"><i class="bi bi-brush text-secondary"></i>Web Designer UI | UX</p>
             <p className="text-white"><i class="bi bi-hdd-network text-secondary"></i>SysAdmin Windows | Linux</p>
             <p className="text-white"><i class="bi bi-music-note-beamed text-secondary"></i>Pianista em formação CEMVA</p>
@@ -55,38 +55,19 @@ export default function App() {
           <div
               className={`${resumeClass ? 'resume-in' : 'resume-out'} resume border border-secondary text-white fst-italic fw-light `}>
             <p>
-              Sou um profissional apaixonado por tecnologia, formado em Análise e Desenvolvimento de Sistemas
-              (Associate's Degree - AS). Ao longo da minha carreira de mais de 11 anos na área de Tecnologia da
-              Informação,
-              desenvolvi uma sólida expertise em infraestrutura de redes, abrangendo tanto redes cabeadas quanto sem
-              fio.
-              Minha jornada profissional inclui uma vasta experiência na administração e virtualização de servidores,
-              com
-              especialização em ambientes Windows e Linux. Além disso, destaco minha participação ativa na implantação
-              de
-              sistemas de gestão e na gestão de serviços de TI.
+              Olá,
             </p>
             <p>
-              Nos últimos três anos, mergulhei de cabeça no universo do desenvolvimento web. Atuando como programador
-              full-stack, explorando profundamente tecnologias como Apache Server, MySQL, Laravel PHP, React JS e
-              ferramentas de design UI/UX, como Figma, Bootstrap e SCSS. Durante esse período, também adquiri habilidades
-              em práticas de versionamento utilizando Git e GitHub. A diversidade das minhas experiências me proporcionou
-              uma visão abrangente, conectando a infraestrutura robusta com soluções de desenvolvimento ágeis e modernas.
+              Sou um profissional apaixonado por tecnologia, com mais de 14 anos de experiência na área de Tecnologia da Informação. Minha jornada começou em 2009, contribuindo para projetos de TI em diversas empresas como Analista de TI, onde desenvolvi uma sólida expertise em infraestrutura de redes, administração e virtualização de servidores.
             </p>
             <p>
-              Minha abordagem centrada no aprendizado contínuo e na busca por desafios me capacita a oferecer soluções
-              inovadoras aos projetos dos clientes. Além de trazer minha experiência consolidada em infraestrutura e
-              redes,
-              estou comprometido em aplicar meu conhecimento em desenvolvimento web para elevar a qualidade e a eficiência
-              das soluções propostas. Minha habilidade em integrar as últimas tecnologias e meu comprometimento em
-              manter-me atualizado me capacitam a agregar valor ao projeto, garantindo resultados eficazes e alinhados com
-              as demandas do cenário tecnológico atual.
+              Em 2021, decidi fazer uma transição para a área de desenvolvimento, consolidando minha posição como Desenvolvedor de Sistemas Web Full-Stack. Nos últimos anos, explorei a fundo tecnologias modernas como Laravel PHP, React JS e ferramentas e conceitos de design UI/UX. Minha abordagem é centrada no aprendizado contínuo, oferecendo soluções inovadoras.
             </p>
             <p>
-              Estou entusiasmado para enfrentar novos desafios e contribuir para o sucesso contínuo do seu projeto. Se você
-              busca um profissional dedicado, com ampla experiência em TI e desenvolvimento web, estou à disposição para
-              colaborar. Vamos criar soluções que impulsionem o seu negócio. Entre em contato para começarmos a
-              concretizar suas ideias!
+              Além de habilidades técnicas, trago uma visão holística do cenário tecnológico, conectando infraestrutura robusta a soluções ágeis. Estou comprometido em aplicar meu conhecimento em desenvolvimento web para elevar a qualidade e eficiência das soluções para impulsionar o sucesso do seu projeto.
+            </p>
+            <p>
+              Se você busca um profissional dedicado, com ampla experiência em TI e desenvolvimento web, estou à disposição para colaborar. Vamos criar soluções que impulsionem seu negócio. Entre em contato para começarmos a concretizar suas ideias!
             </p>
           </div>
         </div>
@@ -95,29 +76,32 @@ export default function App() {
 
         {/** Redes Sociais */}
         <div className="d-flex justify-content-center my-5 btnSocial">
-          <a className="mx-4 fs-1 text-white" href="https://www.youtube.com/@eupaulohbsouza" target="_blank">
-            <i class="bi bi-youtube"></i>
+          <a className="mx-4 fs-1 text-white" href="https://www.youtube.com/@paulohbsouza" target="_blank">
+            <i className="bi bi-youtube"></i>
+          </a>
+          <a className="mx-4 fs-1 text-white" href="https://www.instagram.com/paulohbsouza.dev/" target="_blank">
+            <i className="bi bi-instagram"></i>
           </a>
           <a className="mx-4 fs-1 text-white" href="https://www.linkedin.com/in/paulohbsouza/" target="_blank">
-            <i class="bi bi-linkedin"></i>
+            <i className="bi bi-linkedin"></i>
           </a>
           <a className="mx-4 fs-1 text-white" href="https://github.com/paulohbsouza" target="_blank">
-            <i class="bi bi-github"></i>
+            <i className="bi bi-github"></i>
           </a>
         </div>
 
         {/** Links */}
-        <Links />
+        <Links/>
 
-        <hr />
+        <hr/>
 
         {/** Vitrine */}
-        <Vitrine />
+        <Vitrine/>
 
-        <hr />
+        <hr/>
 
         {/** Portfólio */}
-        <Portfolio />
+        <Portfolio/>
 
         <hr />
 
