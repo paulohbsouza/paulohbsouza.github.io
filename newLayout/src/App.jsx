@@ -79,9 +79,6 @@ export default function App() {
           <a className="mx-4 fs-1 text-white" href="https://www.youtube.com/@paulohbsouza" target="_blank">
             <i className="bi bi-youtube"></i>
           </a>
-          <a className="mx-4 fs-1 text-white" href="https://www.instagram.com/paulohbsouza.dev/" target="_blank">
-            <i className="bi bi-instagram"></i>
-          </a>
           <a className="mx-4 fs-1 text-white" href="https://www.linkedin.com/in/paulohbsouza/" target="_blank">
             <i className="bi bi-linkedin"></i>
           </a>
