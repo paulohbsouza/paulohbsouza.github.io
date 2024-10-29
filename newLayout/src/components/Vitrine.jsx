@@ -51,13 +51,13 @@ export default function Vitrine() {
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>MySQL</div>
+                                <div>SQL</div>
                                 <Range score={8}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>Orientação a objetos</div>
+                                <div>POO</div>
                                 <Range score={8}/>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ export default function Vitrine() {
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>Version. GIT</div>
+                                <div>GIT Version</div>
                                 <Range score={6}/>
                             </div>
                         </div>
