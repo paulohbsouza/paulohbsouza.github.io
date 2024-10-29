@@ -5,7 +5,7 @@ export default function Links() {
             <div className="d-flex flex-column text-center my-5 text-white">
                 <a className="linkBtn text-white mb-5" href="https://www.figma.com/community/file/1138607317570997425" target="_blank">
                     <div className="linkBtn-item p-3">
-                        <i class="bi bi-palette-fill"></i>Weekly Planner Template
+                        <i class="bi bi-calendar-week"></i>Weekly Planner Template
                         <div className="text-secondary"><small>@paulohbsouza</small></div>
                     </div>
                 </a>

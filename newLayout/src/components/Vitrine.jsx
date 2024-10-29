@@ -39,32 +39,44 @@ export default function Vitrine() {
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>PHP</div>
+                                <Range score={8}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Laravel</div>
-                                <Range score={7}/>
+                                <Range score={8}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>MySQL</div>
-                                <Range score={7}/>
+                                <Range score={8}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Orientação a objetos</div>
-                                <Range score={7}/>
+                                <Range score={8}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Algoritmo</div>
-                                <Range score={5}/>
+                                <Range score={7}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Version. GIT</div>
-                                <Range score={5}/>
+                                <Range score={6}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>REST API</div>
+                                <Range score={6}/>
                             </div>
                         </div>
                         <div className="mb-1">
@@ -79,16 +91,11 @@ export default function Vitrine() {
                                 <Range score={4}/>
                             </div>
                         </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>REST API</div>
-                                <Range score={4}/>
-                            </div>
-                        </div>
+                        
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>SCRUM</div>
-                                <Range score={3}/>
+                                <Range score={4}/>
                             </div>
                         </div>
                         <p className="card-text text-secondary mt-4">
@@ -123,32 +130,38 @@ export default function Vitrine() {
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>JavaScript</div>
+                                <Range score={8}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>SASS</div>
                                 <Range score={7}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>JavaScript</div>
-                                <Range score={6}/>
-                            </div>
-                        </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>React</div>
-                                <Range score={6}/>
+                                <div>React.js</div>
+                                <Range score={7}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>TypeScript</div>
-                                <Range score={4}/>
+                                <Range score={6}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>jQuery</div>
-                                <Range score={4}/>
+                                <Range score={6}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>Vue.js</div>
+                                <Range score={3}/>
                             </div>
                         </div>
                         <p className="card-text text-secondary mt-4">
@@ -174,21 +187,26 @@ export default function Vitrine() {
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>Figma Layout</div>
+                                <div>UI/UX</div>
                                 <Range score={8}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>WordPress</div>
-                                <Range score={6}/>
+                                <div>Figma Layout</div>
+                                <Range score={7}/>
                             </div>
                         </div>
-
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>UI/UX</div>
-                                <Range score={6}/>
+                                <div>Design System</div>
+                                <Range score={5}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>WordPress</div>
+                                <Range score={4}/>
                             </div>
                         </div>
                         <p className="card-text text-secondary mt-4">

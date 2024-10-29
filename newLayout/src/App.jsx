@@ -42,8 +42,8 @@ export default function App() {
           </div>
           <div className="subtitles">
             <h1 className="text-secondary display-3 mb-3">Seja bem vindo!</h1>
-            <p className="text-white"><i class="bi bi-code-slash text-secondary"></i>Desenvolvedor Full-Stack Laravel | React</p>
-            <p className="text-white"><i class="bi bi-brush text-secondary"></i>Web Designer UI | UX</p>
+            <p className="text-white"><i class="bi bi-pc-display text-secondary"></i>Desenvolvedor Web</p>
+            <p className="text-white"><i class="bi bi-palette text-secondary"></i>MBA UI/UX</p>
             <p className="text-white"><i class="bi bi-hdd-network text-secondary"></i>SysAdmin Windows | Linux</p>
             <p className="text-white"><i class="bi bi-music-note-beamed text-secondary"></i>Pianista em formação CEMVA</p>
           </div>
@@ -69,6 +69,8 @@ export default function App() {
             <p>
               Se você busca um profissional dedicado, com ampla experiência em TI e desenvolvimento web, estou à disposição para colaborar. Vamos criar soluções que impulsionem seu negócio. Entre em contato para começarmos a concretizar suas ideias!
             </p>
+            <br/>
+            <p className='text-secondary'>@paulohbsouza</p>
           </div>
         </div>
 
