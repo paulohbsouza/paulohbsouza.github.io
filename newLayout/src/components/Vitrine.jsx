@@ -17,7 +17,8 @@ import {
     faReact,
     faSass,
     faUbuntu, faVuejs,
-    faWordpress
+    faWordpress,
+    faNodeJs
 } from '@fortawesome/free-brands-svg-icons'
 import { } from '@fortawesome/free-regular-svg-icons'
 import {faNetworkWired, faPalette, faTape, faUsers, faWind} from '@fortawesome/free-solid-svg-icons'
@@ -40,37 +41,61 @@ export default function Vitrine() {
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>PHP</div>
-                                <Range score={8}/>
-                            </div>
-                        </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>Laravel</div>
-                                <Range score={8}/>
-                            </div>
-                        </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>SQL</div>
-                                <Range score={8}/>
-                            </div>
-                        </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>POO</div>
-                                <Range score={8}/>
-                            </div>
-                        </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>Algoritmo</div>
                                 <Range score={7}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>GIT Version</div>
+                                <div>Laravel</div>
+                                <Range score={7}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>CodeIgniter</div>
+                                <Range score={3}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>SQL</div>
                                 <Range score={6}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>NoSQL</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>Redis</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>Node.Js</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>Express</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>TypeScript</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>POO</div>
+                                <Range score={7}/>
                             </div>
                         </div>
                         <div className="mb-1">
@@ -81,23 +106,17 @@ export default function Vitrine() {
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>CodeIgniter</div>
-                                <Range score={4}/>
+                                <div>GraphQL</div>
+                                <Range score={0}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>KANBAN</div>
-                                <Range score={4}/>
+                                <div>GIT Version</div>
+                                <Range score={6}/>
                             </div>
                         </div>
                         
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>SCRUM</div>
-                                <Range score={4}/>
-                            </div>
-                        </div>
                         <p className="card-text text-secondary mt-4">
                             <span className="fs-4 mx-1"><FontAwesomeIcon icon={faPhp}/></span>
                             <span className="fs-4 mx-1"><FontAwesomeIcon icon={faLaravel}/></span>
@@ -107,6 +126,8 @@ export default function Vitrine() {
                             <span className="fs-4 mx-1"><FontAwesomeIcon icon={faGitAlt}/></span>
                             <span className="fs-4 mx-1"><i className="bi bi-diagram-3"></i></span>
                             <span className="fs-4 mx-1"><i className="bi bi-kanban"></i></span>
+                            <span className="fs-4 mx-1"><FontAwesomeIcon icon={faNodeJs}/></span>
+                            <span className="fs-4 mx-1"><FontAwesomeIcon icon={faNode}/></span>
                         </p>
                     </div>
                 </div>
@@ -125,25 +146,13 @@ export default function Vitrine() {
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Bootstrap</div>
-                                <Range score={8}/>
+                                <Range score={7}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>JavaScript</div>
-                                <Range score={8}/>
-                            </div>
-                        </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>SASS</div>
-                                <Range score={7}/>
-                            </div>
-                        </div>
-                        <div className="mb-1">
-                            <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>React.js</div>
-                                <Range score={7}/>
+                                <Range score={6}/>
                             </div>
                         </div>
                         <div className="mb-1">
@@ -154,14 +163,50 @@ export default function Vitrine() {
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
-                                <div>jQuery</div>
+                                <div>React.js</div>
                                 <Range score={6}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>Next.Js</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>JamStack</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>Gatsby</div>
+                                <Range score={0}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>SASS</div>
+                                <Range score={6}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>jQuery</div>
+                                <Range score={3}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Vue.js</div>
                                 <Range score={3}/>
+                            </div>
+                        </div>
+                        <div className="mb-1">
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>React Native</div>
+                                <Range score={0}/>
                             </div>
                         </div>
                         <p className="card-text text-secondary mt-4">
@@ -188,7 +233,7 @@ export default function Vitrine() {
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>UI/UX</div>
-                                <Range score={8}/>
+                                <Range score={6}/>
                             </div>
                         </div>
                         <div className="mb-1">
@@ -200,13 +245,13 @@ export default function Vitrine() {
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Design System</div>
-                                <Range score={5}/>
+                                <Range score={6}/>
                             </div>
                         </div>
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>WordPress</div>
-                                <Range score={4}/>
+                                <Range score={3}/>
                             </div>
                         </div>
                         <p className="card-text text-secondary mt-4">
