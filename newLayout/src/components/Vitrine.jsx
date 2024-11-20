@@ -71,7 +71,7 @@ export default function Vitrine() {
                         <div className="mb-1">
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Redis</div>
-                                <Range score={0}/>
+                                <Range score={3}/>
                             </div>
                         </div>
                         <div className="mb-1">

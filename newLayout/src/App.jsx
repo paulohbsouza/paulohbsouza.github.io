@@ -78,6 +78,9 @@ export default function App() {
 
         {/** Redes Sociais */}
         <div className="d-flex justify-content-center my-5 btnSocial">
+        <a className="mx-4 fs-1 text-white" href="https://www.instagram.com/paulohbsouza.dev" target="_blank">
+            <i className="bi bi-instagram"></i>
+          </a>
           <a className="mx-4 fs-1 text-white" href="https://www.youtube.com/@paulohbsouza" target="_blank">
             <i className="bi bi-youtube"></i>
           </a>
