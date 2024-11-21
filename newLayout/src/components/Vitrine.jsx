@@ -1,9 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faAws,
     faBootstrap,
     faCpanel, faCss3,
-    faDebian,
     faDocker,
     faFigma,
     faFreeCodeCamp,
@@ -16,12 +14,11 @@ import {
     faPhp,
     faReact,
     faSass,
-    faUbuntu, faVuejs,
     faWordpress,
     faNodeJs
 } from '@fortawesome/free-brands-svg-icons'
 import { } from '@fortawesome/free-regular-svg-icons'
-import {faNetworkWired, faPalette, faTape, faUsers, faWind} from '@fortawesome/free-solid-svg-icons'
+import {faNetworkWired, faPalette} from '@fortawesome/free-solid-svg-icons'
 import Range from "./Range.jsx";
 
 export default function Vitrine() {
@@ -147,6 +144,10 @@ export default function Vitrine() {
                             <div className="d-flex justify-content-between align-items-center name-bolls">
                                 <div>Bootstrap</div>
                                 <Range score={7}/>
+                            </div>
+                            <div className="d-flex justify-content-between align-items-center name-bolls">
+                                <div>Tailwind</div>
+                                <Range score={3}/>
                             </div>
                         </div>
                         <div className="mb-1">
